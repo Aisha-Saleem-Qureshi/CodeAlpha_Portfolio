@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aisha Saleem | CodeAlpha Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo">Aisha<span>Portfolio</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Tasks</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h3>Welcome to my world</h3>
+            <h1>I'm <span class="highlight">Aisha Saleem Qureshi</span></h1> 
+            <p>Frontend Developer Intern at <b>CodeAlpha</b></p>
+            <a href="#projects" class="btn">View Internship Tasks</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="title">About Me</h2>
+            <div class="about-flex">
+                <div class="about-img">
+                    <img src="picture.jpg" alt="Profile Picture">
+                </div>
+                <div class="about-text">
+                    <p>I am an aspiring Frontend Developer with a passion for building beautiful and functional web interfaces.</p>
+                    <p>I focus on writing clean code and creating user-friendly experiences. Currently, I am expanding my skills during my internship at CodeAlpha using HTML, CSS, and JavaScript.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 class="title">CodeAlpha Tasks</h2>
+            <div class="project-grid">
+                <div class="card">
+                    <h3>Smart Calculator</h3>
+                    <p>A fully functional arithmetic tool built with JS.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/aisha-saleem-qureshi/CodeAlpha_Calculator/" target="_blank" class="task-link">GitHub</a>
+                        <a href="https://aisha-saleem-qureshi.github.io/CodeAlpha_Calculator/" target="_blank" class="task-link">Live</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Image Gallery</h3>
+                    <p>An interactive gallery to showcase high-quality images.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Aisha-Saleem-Qureshi/CodeAlpha_ImageGallery" target="_blank" class="task-link">GitHub</a>
+                        <a href="https://aisha-saleem-qureshi.github.io/CodeAlpha_ImageGallery/" class="task-link">Live</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Portfolio Website</h3>
+                    <p>A professional site to showcase all internship tasks.</p>
+                    <div class="project-links">
+                        <span class="task-link active-task">Current</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="title">Contact Me</h2>
+            <form id="contact-form">
+                <fieldset>
+                    <legend>Send a Message</legend>
+                    <div class="input-group">
+                        <label>Name</label>
+                        <input type="text" id="user-name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Email</label>
+                        <input type="email" id="user-email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Message</label>
+                        <textarea id="user-msg" rows="5" placeholder="Your message here..." required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Submit Now</button>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 | CodeAlpha Internship Program | All Tasks Completed</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
